@@ -2,132 +2,344 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+/* ARQUITECTURA */
+
+#architecture h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#architecture a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+#architecture a:hover {
+    color: #333;
+}
+
 #architecture {
     background-color: #ff9aa2;
     max-width: 100%;
     height: auto;
     margin: 500px #ff9aa2;
     border: 500px #ff9aa2;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1.5em;
+    padding: 1em;
     flex-direction: row;
 }
 
-#architecture a {
-    text-decoration: none;
+#architecture .image {
+    text-align: center;
 }
 
-#architecture h3 {
-    color: #FFF;
-    box-shadow: 1px solid black;
-    font-size: 20px;
+#architecture .image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
 }
 
-#architecture .row {
-    justify-content: baseline;
-}
-
-#architecture .row .column {
-    float: left;
-    width: 100px;
-    height: 100px;
+#architecture .image iframe {
+    height: 400px;
+    width: auto;
     object-fit: cover;
+    margin: 20px;
+    padding-bottom: 52px;
+}
+
+
+/* DISEÑO */
+
+#design h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#design a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+#design a:hover {
+    color: #333;
 }
 
 #design {
     background-color: #ffb7b2;
     max-width: 100%;
     height: auto;
-    margin: 500px #ffb7b2;
-    border: 500px #ffb7b2;
+    margin: 500px #ff9aa2;
+    border: 500px #ff9aa2;
+    padding: 1em;
+    flex-direction: row;
+}
+
+#design .image {
+    text-align: center;
+}
+
+#design .image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* ARTE */
+
+#art h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#art a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+#art a:hover {
+    color: #333;
 }
 
 #art {
     background-color: #ffdac1;
     max-width: 100%;
     height: auto;
+    margin: 500px #ffb7b2;
+    border: 500px #ffb7b2;
+    padding: 1em;
+    flex-direction: row;
 }
 
-#technology {
+#art .image {
+    text-align: center;
+}
+
+#art .image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* TECNOLOGIA */
+
+#tech h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#tech a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+#tech a:hover {
+    color: #333;
+}
+
+#tech {
     background-color: #e2f0cb;
     max-width: 100%;
     height: auto;
+    margin: 500px #ffb7b2;
+    border: 500px #ffb7b2;
+    padding: 1em;
+    flex-direction: row;
 }
 
-#interior {
+#tech .image {
+    text-align: center;
+}
+
+#tech .image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* INTERIOR */
+
+#int h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#int a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+#int a:hover {
+    color: #333;
+}
+
+#int {
     background-color: #b5ead7;
     max-width: 100%;
     height: auto;
+    margin: 500px #ffb7b2;
+    border: 500px #ffb7b2;
+    padding: 1em;
+    flex-direction: row;
 }
 
-#exterior {
+#int .image {
+    text-align: center;
+}
+
+#int .image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
+}
+
+
+/* EXTERIOR */
+
+#ext h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+#ext a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 0.1em 0.1em 0.05em #333;
+}
+
+#ext a:hover {
+    color: #333;
+}
+
+#ext {
     background-color: #c7ceea;
     max-width: 100%;
     height: auto;
+    margin: 500px #ffb7b2;
+    border: 500px #ffb7b2;
+    padding: 1em;
+    flex-direction: row;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 0px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
-/* img { 
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  padding: 0px;
-} */
-
-iframe {
-    display: block;
-    max-width: 100%;
-    max-height: 100%;
-    width: auto;
-    height: auto;
-}
-
-.title {
+#ext .image {
     text-align: center;
 }
 
-.title h2 {
-    margin-top: -0.8em;
+#ext .image img {
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    text-align: center;
+    margin: 20px;
 }
 
-#arch {
-    padding-top: 1.7em;
+
+/* FOOTER */
+
+.footer {
+    background-color: rgba(12, 12, 12, 0.9);
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.footer a {
+    margin-bottom: 20px;
+    font-size: 13px;
+    line-height: 60px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 100;
     text-decoration: none;
 }
 
-#logo {
-    margin-top: 1em;
-    text-align: center;
+.footer a p {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }
 
 .topnav {
-    margin: 1em;
-    padding: 1.5em;
-    background-color: black;
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+    top: 0;
 }
 
 .topnav a {
-    justify-content: space-around;
-    color: #fff;
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-#arch h3 {
-    text-decoration: none;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+.renew {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0c1bf0;
     color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+    box-shadow: 0px 15px 20px rgba(106, 119, 243, 0.4);
+}
+
+svg {
+    height: 40px;
+    width: 40px;
+    padding-top: 9px;
+}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 600px) {
+    body {
+        flex-direction: row;
+    }
 }
