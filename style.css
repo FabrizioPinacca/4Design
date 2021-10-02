@@ -1,198 +1,133 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-#logo{
-
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 #architecture {
-  background-color: #ff9aa2;
-  max-width:100%; height:auto;
-  margin: 500px #ff9aa2;
-  border: 500px #ff9aa2;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
+    background-color: #ff9aa2;
+    max-width: 100%;
+    height: auto;
+    margin: 500px #ff9aa2;
+    border: 500px #ff9aa2;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    flex-direction: row;
 }
 
-#architecture a{
-  text-decoration: none;
+#architecture a {
+    text-decoration: none;
 }
 
 #architecture h3 {
-  color: #FFF;
-  font-size:30px;
+    color: #FFF;
+    box-shadow: 1px solid black;
+    font-size: 20px;
+}
+
+#architecture .row {
+    justify-content: baseline;
+}
+
+#architecture .row .column {
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
 
 #design {
-  background-color: #ffb7b2;
-  max-width:100%; height:auto;
-  margin: 500px #ffb7b2;
-  border: 500px #ffb7b2;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-#design a{
-  text-decoration: none;
-}
-
-#design h3 {
-  color: #FFF;
-  font-size:30px;
+    background-color: #ffb7b2;
+    max-width: 100%;
+    height: auto;
+    margin: 500px #ffb7b2;
+    border: 500px #ffb7b2;
 }
 
 #art {
-  background-color: #ffdac1;
-  max-width:100%; height:auto;
-  margin: 500px #ffb7b2;
-  border: 500px #ffb7b2;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-#art a{
-  text-decoration: none;
-}
-
-#art h3 {
-  color: #FFF;
-  font-size:30px;
+    background-color: #ffdac1;
+    max-width: 100%;
+    height: auto;
 }
 
 #technology {
-  background-color: #e2f0cb;
-  max-width:100%; height:auto;
-  margin: 500px #ffb7b2;
-  border: 500px #ffb7b2;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-#technology a{
-  text-decoration: none;
-}
-
-#technology h3 {
-  color: #FFF;
-  font-size: 30px;
+    background-color: #e2f0cb;
+    max-width: 100%;
+    height: auto;
 }
 
 #interior {
-  background-color: #b5ead7;
-  max-width:100%; height:auto;
-  margin: 500px #ffb7b2;
-  border: 500px #ffb7b2;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-#interior a{
-  text-decoration: none;
-}
-
-#interior h3 {
-  color: #FFF;
-  font-size:30px;
+    background-color: #b5ead7;
+    max-width: 100%;
+    height: auto;
 }
 
 #exterior {
-  background-color: #c7ceea;
-  max-width:100%; height:auto;
-  margin: 500px #ffb7b2;
-  border: 500px #ffb7b2;
-  text-align: center;
-  padding-top: 1em;
-  padding-bottom: 1.5em;
-}
-
-#exterior a{
-  text-decoration: none;
-}
-
-#exterior h3 {
-  color: #FFF;
-  font-size:30px;
+    background-color: #c7ceea;
+    max-width: 100%;
+    height: auto;
 }
 
 .column {
-  float: left;
-  width: 33.33%;
-  padding: 0px;
+    float: left;
+    width: 33.33%;
+    padding: 0px;
 }
 
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+    content: "";
+    clear: both;
+    display: table;
 }
 
-img { 
+
+/* img { 
   display: block;
   max-width: 100%;
   max-height: 100%;
   width: auto;
   height: auto;
-  padding: 5%;
-  border:10px;
-  border-color: black;
+  padding: 0px;
+} */
 
-} 
-
-iframe { 
-  display: block;
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
+iframe {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
 }
 
 .title {
-  text-align: center;
+    text-align: center;
 }
 
 .title h2 {
-  margin-top: -0.8em;
+    margin-top: -0.8em;
 }
 
 #arch {
-  padding-top: 1.7em;
-  text-decoration: none;
+    padding-top: 1.7em;
+    text-decoration: none;
 }
 
 #logo {
-  margin-top: 1em;
-  text-align: center;
+    margin-top: 1em;
+    text-align: center;
 }
 
 .topnav {
-  margin: 0em;
-  padding: 1.5em;
-  background-color: black;
+    margin: 1em;
+    padding: 1.5em;
+    background-color: black;
 }
 
 .topnav a {
-  justify-content: space-around;
-  color: #fff;
-  text-decoration: none;
-  text-align: left;
-  display: inline;
+    justify-content: space-around;
+    color: #fff;
+    text-decoration: none;
 }
 
-.topnav img {
-  justify-content: space-around;
-  max-height: 100%;
-  width: 30px;
-  text-align: left;
+#arch h3 {
+    text-decoration: none;
+    color: #FFF;
 }
-
-
-
-
-
